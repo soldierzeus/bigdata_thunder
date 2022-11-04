@@ -1,8 +1,8 @@
-CREATE TABLE newspaperdb.mail_economytable (
+CREATE TABLE newspaperdb.money_todaytable (
  seq        INT NOT NULL AUTO_INCREMENT,
  mb_id     VARCHAR(20),
- mb_pw    VARCHAR(20),
- address   VARCHAR(50),
- mb_tell    VARCHAR(50),  
+ mb_pw    VARCHAR(100),
+ address   VARCHAR(100),
+ mb_tell    VARCHAR(20),  
   PRIMARY KEY(seq)
-) ENGINE=MYISAM CHARSET=utf8mb3;
+) ENGINE= MYISAM CHARSET=utf8mb4;
